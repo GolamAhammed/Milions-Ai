@@ -4,7 +4,7 @@ import React from 'react'
 const ConversationPage = () => {
   return (
     <div>
-        <Heading/>
+        conversation 
     </div>
   )
 }
