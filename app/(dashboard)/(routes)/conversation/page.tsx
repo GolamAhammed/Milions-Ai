@@ -12,6 +12,7 @@ import {
   FormControl,
   FormField,
   FormItem,
+  FormMessage,
 
 
 } from "@/components/ui/form"
@@ -65,6 +66,7 @@ const ConversationPage = () => {
                  disabled={isLoading}
                  />
               </FormControl>
+              <FormMessage/>
             </FormItem>
           )}
         />
